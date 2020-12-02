@@ -1,0 +1,184 @@
+/***************************************TAG SELECTOR***************************************************/
+body{
+  background-color: rgb(216, 216, 216);
+  margin: 0px;
+  color: rgb(20, 20, 20);
+  font-family: 'Crimson Text', serif;
+}
+
+b{
+  color: #2194bb;
+  font-family: 'Sanchez', serif;
+}
+
+h1{
+  margin-top: 12px;
+  margin-bottom: 5px;
+  margin-left: 15px;
+  display: inline-block;
+  font-family: 'Sanchez', serif;
+}
+
+h2{
+  margin-top: 12px;
+  margin-bottom: 5px;
+  margin-left: 15px;
+  display: inline-block;
+  font-family: 'Sanchez', serif;
+}
+
+h3{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 15px;
+  display: inline-block;
+  font-family: 'Sanchez', serif;
+}
+
+li{
+  margin-top: 10px;  
+  font-size: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}
+
+hr{
+  width: 90%;
+  height:2px;
+  border-width:0;
+  color:gray;
+  background-color:gray
+}
+
+/****************************************CLASSES DEFINIATION**********************************************/
+/**********SIDE MENU************/
+.sidemenu{
+  background-color: #1a293c;
+  color: #ececec;
+  float: left;
+  width: 30%;
+  height: max-content;
+  border-radius: 9px;
+  position: absolute;
+  display: block;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.text{
+  margin-left: 75px;
+  margin-right: 25px;
+  font-family: 'Crimson Text', serif;
+}
+
+.gap{
+  margin-left: 75px;
+}
+
+.profile-pic{
+  width: 12em;
+  height: 12em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: block;
+}
+
+.icon{
+  width: 27px;
+  height: 27px;
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+/**********BODY DIV************/
+.content{
+  width: 69%;
+  min-height: 1100px;
+  background-color: rgb(216, 216, 216);
+  color: rgb(32, 32, 32);
+  float: right;
+  margin-left: 5px;
+  font-size: 16px;
+}
+
+.h1-blue{
+  color: #2194bb;
+  font-family: 'Sanchez', serif;
+}
+
+.h2-blue{
+  color: #2194bb;
+  font-size: 21px;
+  margin-bottom: 0px;
+  margin-top: 4px;
+  font-family: 'Sanchez', serif;
+}
+
+.tex2{
+  margin-left: 35px;
+  margin-right: 80px;
+  font-family: 'Crimson Text', serif;
+}
+
+.tex3{
+  margin-top: 3px;
+  margin-bottom: 21px;
+  margin-left: 15px;
+  margin-right: 80px;
+  font-family: 'Crimson Text', serif;
+}
+
+/**********TITLE DIV************/
+.title{
+  text-align: center;
+  color: white;
+  background-color: #1a293c;
+  height: 150px;
+  max-width: 70%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  border-radius: 5px;
+}
+
+.h1-white{
+  font-size: 50px;
+  margin-top: 15px;
+
+}
+
+.h2-white{
+  font-size: 20px;
+  margin-top: 15px;
+  font-family: 'Sanchez', serif;
+}
+
+/********************************************FANCY PART**************************************************/
+::selection{
+  color: white  ;
+  background-color: #0aa4d8;
+}
+  
+::-webkit-scrollbar{
+  width: 10px;   
+}
+  
+::-webkit-scrollbar-track{
+  background-color: rgba(0, 0, 0, .15);
+}
+  
+::-webkit-scrollbar-thumb{
+  border-radius: 2px;
+  background-color: #1d3f6b;
+}
+  
+::-webkit-scrollbar-thumb:hover{
+  background-color: #182536;
+}
