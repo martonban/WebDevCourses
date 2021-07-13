@@ -1,0 +1,18 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#product-owerview{
+    background: #ff1b68;
+}
+
+#product-owerview h1{
+    color: white;
+    font-family: 'Anton', sans-serif;
+}
+
+.section-title{
+    color: #2ddf5c;
+    font-family: inherit;
+}
+
